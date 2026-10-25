@@ -3,10 +3,13 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Meet Nasim Shiplu Kamal — independent Bengali singer, songwriter and writer. A personal space for music, poetry, thoughts and the stories behind them.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" content="Meet Nasim Shiplu Kamal, an independent Bengali singer and songwriter born in Noakhali, Bangladesh. Explore his original music, poetry, personal reflections and creative journey.">
+
   <meta name="theme-color" content="#f4f0e8">
   <title>About Me — Nasim Shiplu Kamal</title>
+
   <link rel="stylesheet" href="/assets/style.css">
 
   <style>
@@ -35,7 +38,9 @@
       padding-bottom: 65px;
     }
 
-    .about-hero .eyebrow { margin-bottom: 28px; }
+    .about-hero .eyebrow {
+      margin-bottom: 28px;
+    }
 
     .about-hero h1 {
       max-width: 950px;
@@ -78,47 +83,24 @@
       border-top: 1px solid var(--about-line);
     }
 
-    .about-photo-section { padding-top: 30px; }
+    .about-photo-section {
+      padding-top: 30px;
+    }
 
     .about-photo {
-      min-height: 360px;
       height: min(58vw, 590px);
-      background: #d1c8b9;
+      min-height: 360px;
       position: relative;
       overflow: hidden;
+      background: #d1c8b9;
     }
 
     .about-photo img {
+      display: block;
       width: 100%;
       height: 100%;
-      min-height: 360px;
-      display: block;
       object-fit: cover;
-      object-position: center 40%;
-    }
-
-    .about-photo-placeholder {
-      min-height: 360px;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      padding: clamp(25px, 5vw, 55px);
-      color: #fffdf8;
-      background:
-        linear-gradient(0deg, rgba(34,32,27,.65), transparent 75%),
-        linear-gradient(135deg, #d6cdbf, #9e927e);
-    }
-
-    .about-photo-placeholder span {
-      font-size: 11px;
-      letter-spacing: .18em;
-      text-transform: uppercase;
-    }
-
-    .about-photo-placeholder strong {
-      margin-top: 12px;
-      font: 400 clamp(32px, 5vw, 62px)/1.1 Georgia, serif;
+      object-position: center 30%;
     }
 
     .about-photo-caption {
@@ -140,7 +122,9 @@
       padding-bottom: clamp(80px, 11vw, 135px);
     }
 
-    .about-story-aside { padding-top: 10px; }
+    .about-story-aside {
+      padding-top: 10px;
+    }
 
     .about-story-aside p {
       max-width: 220px;
@@ -228,7 +212,9 @@
       border-top: 1px solid var(--about-line);
     }
 
-    .about-work-item { padding: 28px 22px 10px 0; }
+    .about-work-item {
+      padding: 28px 22px 10px 0;
+    }
 
     .about-work-item + .about-work-item {
       padding-left: 22px;
@@ -306,12 +292,18 @@
       margin-top: 18px;
     }
 
-    .about-page .contact-band { margin-top: 0; }
+    .about-page .contact-band {
+      margin-top: 0;
+    }
 
     @media (max-width: 760px) {
-      .about-page .wrap { width: calc(100% - 36px); }
+      .about-page .wrap {
+        width: calc(100% - 36px);
+      }
 
-      .about-hero { padding-top: 65px; }
+      .about-hero {
+        padding-top: 65px;
+      }
 
       .about-hero-bottom {
         grid-template-columns: 1fr;
@@ -325,9 +317,6 @@
         max-height: 480px;
       }
 
-      .about-photo img,
-      .about-photo-placeholder { min-height: 330px; }
-
       .about-story {
         grid-template-columns: 1fr;
         gap: 25px;
@@ -336,9 +325,13 @@
       }
 
       .about-work-grid,
-      .about-explore-grid { grid-template-columns: 1fr; }
+      .about-explore-grid {
+        grid-template-columns: 1fr;
+      }
 
-      .about-work-item { padding: 25px 0; }
+      .about-work-item {
+        padding: 25px 0;
+      }
 
       .about-work-item + .about-work-item {
         padding-left: 0;
@@ -346,14 +339,23 @@
         border-top: 1px solid var(--about-line);
       }
 
-      .about-explore-card { min-height: 165px; }
+      .about-explore-card {
+        min-height: 165px;
+      }
 
-      .about-photo-caption { font-size: 9px; }
+      .about-photo-caption {
+        font-size: 9px;
+      }
     }
 
     @media (prefers-reduced-motion: reduce) {
-      .about-explore-card { transition: none; }
-      .about-explore-card:hover { transform: none; }
+      .about-explore-card {
+        transition: none;
+      }
+
+      .about-explore-card:hover {
+        transform: none;
+      }
     }
   </style>
 </head>
@@ -365,6 +367,7 @@
         Nasim Shiplu Kamal
         <span>Music · Stories · Life</span>
       </a>
+
       <nav aria-label="Main navigation">
         <a href="/index.html">Home</a>
         <a href="/music/index.html">Music</a>
@@ -380,7 +383,9 @@
 
     <section class="about-hero">
       <div class="wrap">
-        <div class="eyebrow">A little about the person behind the music</div>
+        <div class="eyebrow">
+          A little about the person behind the music
+        </div>
 
         <h1 class="serif">
           Some things are<br>
@@ -407,22 +412,11 @@
 
     <section class="about-photo-section">
       <div class="wrap">
-
-        <!-- Replace this placeholder with your own photograph.
-             Upload it to /assets/images/nasim-about.jpg and replace
-             this div with the img element shown below.
-
-        <img src="/assets/images/nasim-about.jpg"
-             alt="Nasim Shiplu Kamal"
-             loading="eager">
-
-        -->
-
         <div class="about-photo">
-          <div class="about-photo-placeholder">
-            <span>The person behind the songs</span>
-            <strong>Nasim Shiplu Kamal</strong>
-          </div>
+          <img
+            src="/assets/images/nasim-about.jpg"
+            alt="Nasim Shiplu Kamal, independent Bengali singer and songwriter"
+            loading="eager">
         </div>
 
         <div class="about-photo-caption">
@@ -448,16 +442,10 @@
         </h2>
 
         <p>
-          I've always felt that some experiences are difficult to
-          explain in ordinary conversation. Sometimes, a song can
-          say what we struggle to put into words.
-        </p>
-
-        <p>
-          I'm an independent Bengali singer and songwriter.
-          Music is an important part of how I understand the world,
-          remember people, and make sense of the things that happen
-          along the way.
+          I was born in Noakhali, Bangladesh. I'm an independent
+          Bengali singer and songwriter, and music is an important
+          part of how I express myself and make sense of the things
+          that happen along the way.
         </p>
 
         <p>
@@ -504,6 +492,7 @@
         <div class="about-work-heading">
           <div class="eyebrow">The things that bring me here</div>
           <h2 class="serif">Different ways of telling a story.</h2>
+
           <p>
             Music and writing may look like different pursuits,
             but for me, they often begin with the same thing:
@@ -514,7 +503,7 @@
         <div class="about-work-grid">
           <article class="about-work-item">
             <span class="number">01 / MUSIC</span>
-            <h3>Songs & melodies</h3>
+            <h3>Songs &amp; melodies</h3>
             <p>
               Original Bengali songs shaped by melody, emotion,
               relationships, and the experiences that leave
@@ -524,7 +513,7 @@
 
           <article class="about-work-item">
             <span class="number">02 / WRITING</span>
-            <h3>Poetry & thoughts</h3>
+            <h3>Poetry &amp; thoughts</h3>
             <p>
               Personal reflections, poems, and observations about
               people, memories, growing older, and the many
@@ -556,7 +545,7 @@
           <a class="about-explore-card" href="/music/index.html">
             <span class="number">01 — LISTEN</span>
             <div>
-              <h3>Songs & music</h3>
+              <h3>Songs &amp; music</h3>
               <p>
                 Discover my original Bengali music and the
                 stories behind the songs.
@@ -596,7 +585,9 @@
       <div class="wrap contact-inner">
         <div>
           <div class="eyebrow">Before you leave</div>
-          <h2 class="serif">If something here speaks to you, say hello.</h2>
+          <h2 class="serif">
+            If something here speaks to you, say hello.
+          </h2>
           <p class="muted">
             Whether you've discovered a song you like, have something
             to share, or simply want to connect, I'd be glad to hear
@@ -605,28 +596,37 @@
         </div>
 
         <div class="actions">
-          <a class="button primary"
-             href="https://youtube.com/@nasimkamal"
-             target="_blank"
-             rel="noopener noreferrer">Listen on YouTube ↗</a>
+          <a
+            class="button primary"
+            href="https://youtube.com/@nasimkamal"
+            target="_blank"
+            rel="noopener noreferrer">
+            Listen on YouTube ↗
+          </a>
 
-          <!-- Replace with your actual public email address. -->
-          <a class="button"
-             href="mailto:REPLACE-WITH-YOUR-EMAIL">Get in touch</a>
+          <a class="button" href="mailto:kamal.nasim@gmail.com">
+            Get in touch
+          </a>
         </div>
       </div>
     </div>
+
   </main>
 
   <footer>
     <div class="wrap footer-inner">
       <span>© <span data-year></span> Nasim Shiplu Kamal</span>
+
       <div class="socials">
-        <a href="https://youtube.com/@nasimkamal"
-           target="_blank"
-           rel="noopener noreferrer">YouTube ↗</a>
+        <a
+          href="https://youtube.com/@nasimkamal"
+          target="_blank"
+          rel="noopener noreferrer">
+          YouTube ↗
+        </a>
         <a href="/about.html#contact">Contact</a>
       </div>
+
       <span>Made with care, for the love of music and words.</span>
     </div>
   </footer>
