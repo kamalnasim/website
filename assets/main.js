@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const y=document.querySelector('[data-year]');if(y)y.textContent=new Date().getFullYear();const here=location.pathname.replace(/\/$/,'')||'/';document.querySelectorAll('nav a').forEach(a=>{const href=new URL(a.href,location.href).pathname.replace(/\/$/,'')||'/';if(href===here)a.classList.add('active')})});
