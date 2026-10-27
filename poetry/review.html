@@ -164,6 +164,25 @@
         text-transform: uppercase;
         color: var(--poetry-muted);
       }
+      .poem-list li {
+  transition:
+    transform .2s ease,
+    background .2s ease,
+    border-color .2s ease;
+}
+
+.poem-list li:hover {
+  transform: translateY(-2px);
+  background: #faf6f0;
+}
+
+.poem-list .bn {
+  line-height: 1.4;
+}
+
+.poem-list a:hover h3 {
+  color: var(--poetry-accent);
+}
 
       @media (max-width: 820px) {
         .poetry-feature {
