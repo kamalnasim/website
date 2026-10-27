@@ -13,12 +13,11 @@ header{border-bottom:1px solid var(--line);background:rgba(244,240,232,.96)}.nav
 footer{border-top:1px solid var(--line);padding:26px 0;color:var(--muted);font-size:.75rem}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.socials{display:flex;gap:18px;flex-wrap:wrap}.socials a{color:var(--ink)}
 .notice{padding:13px 16px;border-left:3px solid var(--accent);background:#eee7dc;color:#5f5a50;font-size:.83rem}
 
-/* Home + journal system */
-.home-spotlight{padding:56px 0 20px}.home-spotlight .eyebrow{margin-bottom:14px}.home-spotlight h2{margin:0 0 18px;font-size:clamp(2.4rem,4vw,4vw);line-height:1.1}.home-spotlight p{margin:0;color:var(--muted);max-width:620px}
+.home-spotlight{padding:56px 0 20px}.home-spotlight .eyebrow{margin-bottom:14px}.home-spotlight h2{margin:0 0 18px;font-size:clamp(2.4rem,4vw,4rem);line-height:1.1}.home-spotlight p{margin:0;color:var(--muted);max-width:620px}
 .home-journal{display:grid;grid-template-columns:1.15fr .85fr;gap:24px;align-items:stretch}.home-journal-feature,.home-journal-list{display:grid;gap:18px}
 .feature-card,.mini-card{background:rgba(255,255,255,.5);border:1px solid var(--line);padding:24px 22px;display:flex;flex-direction:column;gap:14px}.feature-card h3,.mini-card h3{margin:0;line-height:1.25}.feature-card h3{font-size:clamp(1.7rem,3vw,2.6rem)}.mini-card h3{font-size:1.4rem}.feature-card p,.mini-card p{margin:0;color:var(--muted)}
 .feature-link,.mini-link{margin-top:auto;color:var(--accent);font-weight:600;display:inline-flex;align-items:center;gap:8px}
-.entry-meta,.journal-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:.76rem;letter-spacing:.08em;text-transform:uppercase}.entry-meta time,.journal-meta time{color:var(--ink)}
+.entry-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;color:var(--muted);font-size:.76rem;letter-spacing:.08em;text-transform:uppercase}.entry-meta time{color:var(--ink)}
 
 .journal-intro{padding:76px 0 32px;max-width:760px}.journal-intro .eyebrow{margin-bottom:14px}.journal-intro h1{font-size:clamp(2.8rem,6vw,5rem);line-height:1.04;margin:0 0 16px}.journal-intro p{margin:0 0 1.1em;color:var(--muted);font-size:1.06rem}
 .journal-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;padding:0 0 64px}.journal-card{background:rgba(255,255,255,.46);border:1px solid var(--line);padding:26px 24px;display:flex;flex-direction:column;gap:14px;min-height:240px;transition:transform .2s ease,box-shadow .2s ease}.journal-card:hover,.journal-card:focus-within{transform:translateY(-2px);box-shadow:0 18px 28px rgba(36,36,31,.04)}.journal-card h2{margin:0;font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.15}.journal-card p{margin:0;color:var(--muted)}.journal-link{margin-top:auto;display:inline-flex;align-items:center;gap:8px;color:var(--accent);font-weight:600}
