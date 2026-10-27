@@ -97,10 +97,12 @@ nav a{
 }
 
 nav a:hover,
-nav a.active{
+nav a.active,
+nav a[aria-current="page"]{
   border-color:var(--accent);
   color:var(--accent);
 }
+
 
 /* ==================================================
    TYPOGRAPHY
